@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("tp-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: black;
+}
+
+.signup-container {
+  text-align: center;
+  color: white;
+}
+
+.signup-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.form-card {
+  width: 350px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.407);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-card h2 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.form-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 15px;
+}
+
+.input input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.genders {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+  color: black;
+}
+
+.genders label {
+  font-size: 14px;
+}
+
+.signup-btn {
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  background-color: #ffa200;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.signup-btn:hover {
+  background-color: #d66700cf;
+}

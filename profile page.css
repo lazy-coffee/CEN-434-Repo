@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #5fb4ff, #7be8fe);
+}
+
+p {
+  margin: 10px 10px;
+}
+
+img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-card {
+  width: 390px;
+  padding: 40px 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.header p {
+  color: #666;
+}
+
+.profile-image img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.colums {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+.details p:first-child {
+  color: #666;
+  font-size: 14px;
+}
+
+.details p:last-child {
+  color: #333;
+  font-size: 18px;
+}
+
+.contact-info {
+  color: #666;
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.follow-btn {
+  background-color: #ff7e5f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.follow-btn:hover {
+  background-color: #feb47b;
+}
+
+.social-icons {
+  margin-top: 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+.social-icons a {
+  color: #5f8cff;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.social-icons a:hover {
+  color: #4135e8;
+}
